@@ -1,6 +1,6 @@
-import { GAME } from "vars.js";
-import { Profile, isDraw, endGame, setHoverEffect, markCell, swapTurns } from "tic.js";
-import { checkWin, WIN_COMBINATIONS } from 'win.js';
+import { GAME } from "./vars.js";
+import { Profile, isDraw, endGame, setHoverEffect, markCell, swapTurns } from "./tic.js";
+import { checkWin, WIN_COMBINATIONS } from './win.js';
 
 
 GAME.startBtn.addEventListener("click", startGame);
