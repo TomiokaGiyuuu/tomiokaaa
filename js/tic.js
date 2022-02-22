@@ -1,4 +1,4 @@
-import { GAME } from "./vars.js";
+import { GAME } from "js/vars.js";
 
 export function Profile(){
     GAME.selectedProfile.forEach(img => {
